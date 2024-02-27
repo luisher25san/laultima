@@ -162,7 +162,7 @@ nav ul li:hover {
   border-radius: 5px; /* Bordes redondeados */
   background-color: #ffffff; /* Color de fondo claro */
   box-shadow: 0 2px 4px rgba(255, 255, 255, ); /* Sombra suave */
-  width: 478px; /* Ancho del div */
+  width: 375px; /* Ancho del div */
   height: 50px; /* Altura del div */
   overflow: hidden; /* Oculta el contenido que desborda */
   padding-top: 10px;
@@ -263,7 +263,7 @@ nav ul li:hover {
   height: auto; /* Altura automática según el ancho */
   max-height: auto; /* Máximo de 50px de altura */
   width: auto; /* Ancho automático según la altura */
-  height: 35%; /* El 25% del tamaño original */
+  height: auto; /* El 25% del tamaño original */
 }
 
 .container {
