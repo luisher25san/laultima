@@ -263,7 +263,7 @@ nav ul li:hover {
   height: auto; /* Altura automática según el ancho */
   max-height: auto; /* Máximo de 50px de altura */
   width: auto; /* Ancho automático según la altura */
-  height: 35%; /* El 25% del tamaño original */
+  height: auto; /* El 25% del tamaño original */
 }
 
 .container {
