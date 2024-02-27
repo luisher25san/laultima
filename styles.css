@@ -352,3 +352,15 @@ nav ul li:hover {
   background-color: #333;
   color: #fff;
 }
+
+.contenedor-menu {
+  max-width: 465px;
+  min-width: 378px;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  border-radius: 1px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  overflow: hidden; /* Oculta el contenido que desborda */
+  background-color: #ffffff; /* Color de fondo claro */
+  padding: 20px; /* Añade espacio interno para el contenido */
+  text-align: justify; /* Alineación centrada */
+}
