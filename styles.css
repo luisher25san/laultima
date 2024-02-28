@@ -272,7 +272,7 @@ nav ul li:hover {
   border-radius: 5px; /* Bordes redondeados */
   display: flex;
   justify-content: space-between;
-  font-family: "Times New Roman", serif;
+  font-family: "Arial", serif;
   max-width: 460px;
   min-width: 375px;
   padding: 20px;
@@ -307,6 +307,7 @@ nav ul li:hover {
   display: flex;
   justify-content: space-between;
   font-family: "Times New Roman", serif;
+  font-style: italic;
   max-width: 460px;
   min-width: 375px;
   padding: 20px;
