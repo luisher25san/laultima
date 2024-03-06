@@ -18,6 +18,11 @@ header {
   position: fixed;
 }
 
+body{
+  background-color: #ffffff;
+  margin-bottom: 40px;
+}
+
 #main-header {
   background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad */
   color: white;
@@ -66,7 +71,7 @@ nav ul li:hover {
 }
 
 
-  main {
+main {
     margin-top: 80px; /* Ajusta este valor según la altura de tu header */
 }
 
@@ -117,19 +122,19 @@ nav ul li:hover {
 }
 
 .redes {
-  font-family: "Arial", sans-serif; /* Fuente elegante */
-  font-size: 16px; /* Tamaño de fuente moderado */
-  color: #000000; /* Color de texto oscuro */
-  text-align: center; /* Alineación centrada */
-  margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
-  padding: 10px; /* Relleno interno */
-  border: 3px solid black; /* Borde sólido negro */
-  border-radius: 5px; /* Bordes redondeados */
-  background-color: #ffffff; /* Color de fondo claro */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave */
-  width: 478px; /* Ancho del div */
-  height: 50px; /* Altura del div */
-  overflow: hidden; /* Oculta el contenido que desborda */
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 1); /* Sombra con desenfoque de 0.5px */
+  width: 478px;
+  height: 50px;
+  overflow: hidden;
 }
 
 .redes iframe {
@@ -166,12 +171,28 @@ nav ul li:hover {
   height: 50px; /* Altura del div */
   overflow: hidden; /* Oculta el contenido que desborda */
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .redes1 iframe {
   width: 100%; /* Ancho completo del iframe dentro del div */
   height: 100%; /* Altura completa del iframe dentro del div */
+}
+
+.redes2 {
+  font-size: 20px; /* Tamaño de fuente moderado */
+  color: #000000; /* Color de texto oscuro */
+  text-align: center; /* Alineación centrada */
+  margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
+  padding: 10px; /* Relleno interno */
+  border: 3px solid rgb(255, 255, 255); /* Borde sólido negro */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #ffffff; /* Color de fondo claro */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, ); /* Sombra suave */
+  width: 375px; /* Ancho del div */
+  height: 50px; /* Altura del div */
+  overflow: hidden; /* Oculta el contenido que desborda */
+  padding-bottom: 10px;
 }
 
 .profile-card {
@@ -228,14 +249,14 @@ nav ul li:hover {
 }
 
 .menu-item {
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc; /* Línea separadora entre elementos */
   padding: 10px 0; /* Espaciado interno */
   min-width: 375px;
   max-width: 480px;
-  border-radius: 10px;
+  border-radius: 1opx;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -243,19 +264,21 @@ nav ul li:hover {
   text-align: center; /* Alineación centrada */
   margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
   background-color: #ffffff; /* Color de fondo claro */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 -2px 4px rgba(0, 0, 0, 0.5); /* Sombras arriba y abajo */
   overflow: hidden; /* Oculta el contenido que desborda */
   align-items: center;
+  font-family: helvetica;
 }
 
 .item-price {
   flex: 1; /* Que ocupen todo el espacio restante */
   text-align: center; /* Centrar texto horizontalmente */
+  font: helvetica;
 }
 
 .item-name {
   flex: 2; /* Que ocupe más espacio para el nombre */
   text-align: center; /* Centrar texto horizontalmente */
+  font: helvetica;
 }
 
 .item-photo img {
@@ -264,12 +287,13 @@ nav ul li:hover {
   max-height: auto; /* Máximo de 50px de altura */
   width: auto; /* Ancho automático según la altura */
   height: auto; /* El 25% del tamaño original */
+  border-radius: 10px;
 }
 
 .container {
+  border-bottom: 1px solid;
   font-size: 16px; /* Tamaño de fuente */
-  border: 1px solid #ccc; /* Borde */
-  border-radius: 5px; /* Bordes redondeados */
+  
   display: flex;
   justify-content: space-between;
   font-family: "Arial", serif;
@@ -282,7 +306,6 @@ nav ul li:hover {
   text-align: justify; /* Alineación centrada */
   margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
   background-color: #ffffff; /* Color de fondo claro */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 -2px 4px rgba(0, 0, 0, 0.5); /* Sombras arriba y abajo */
   overflow: hidden; /* Oculta el contenido que desborda */
   align-items: center;
   height: auto;
@@ -301,9 +324,9 @@ nav ul li:hover {
 }
 
 .descripcion-hamburguesa {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
   font-size: 16px; /* Tamaño de fuente */
-  border: 1px solid #ccc; /* Borde */
-  border-radius: 5px; /* Bordes redondeados */
   display: flex;
   justify-content: space-between;
   font-family: "Times New Roman", serif;
@@ -317,7 +340,6 @@ nav ul li:hover {
   text-align: justify; /* Alineación centrada */
   margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
   background-color: #ffffff; /* Color de fondo claro */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 -2px 4px rgba(0, 0, 0, 0.5); /* Sombras arriba y abajo */
   overflow: hidden; /* Oculta el contenido que desborda */
   align-items: center;
   height: auto;
@@ -326,7 +348,7 @@ nav ul li:hover {
 .disclaimer {
   font-size: 17px; /* Tamaño de fuente más pequeño para el descargo de responsabilidad */
   margin-top: 10px; /* Espacio superior */
-  color: #616161; /* Color de texto más claro */
+  color: #696969; /* Color de texto más claro */
   padding-bottom: 5px;
 }
 
@@ -358,12 +380,111 @@ nav ul li:hover {
   max-width: 465px;
   min-width: 378px;
   margin: 0 auto; /* Centra el contenedor horizontalmente */
-  border-radius: 1px; /* Bordes redondeados */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 -2px 4px rgba(0, 0, 0, 0.5); /* Sombras arriba y abajo */
+  border-radius: 3px; /* Bordes redondeados */
   overflow: hidden; /* Oculta el contenido que desborda */
   background-color: #ffffff; /* Color de fondo claro */
   padding: 20px; /* Añade espacio interno para el contenido */
   text-align: justify; /* Alineación centrada */
-  margin-top: 5px;
+  margin-top: 7px;
   margin-bottom: 25px;
+  border: 0.8px solid;
+}
+
+.column{
+  background-color: white;
+  
+}
+
+.titulo-menu{
+  font-size: auto;
+  min-height: auto;
+  min-width: 365px ;
+  max-height: 450px;
+  max-width: auto;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.contenedor-central {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative; /* Añadido */
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  background-color: orange;
+  position: relative;
+  cursor: pointer;
+}
+
+.switch-label::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: left 0.3s;
+}
+
+.switch-input:checked + .switch-label::after {
+  left: 21px;
+}
+
+.etiqueta-comida,
+.etiqueta-bebida {
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  line-height: 20px; /* Añadido para alinear verticalmente */
+}
+
+.etiqueta-comida {
+  left: 0;
+  margin-left: 450px;
+}
+
+.etiqueta-bebida {
+  right: 0;
+  margin-right: 450px;
+}
+
+@media screen and (min-width: 365px) and (max-width: 600px) {
+ 
+.etiqueta-comida {
+  left: 0;
+  margin-left: 140px;
+}
+
+.etiqueta-bebida {
+  right: 0;
+  margin-right: 160px;
+}
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport */
+}
+
+main {
+  flex: 1; /* El contenido principal ocupa todo el espacio restante */
 }

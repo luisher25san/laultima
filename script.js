@@ -24,3 +24,39 @@ window.addEventListener('scroll', function() {
 function toggleNightMode() {
     document.body.classList.toggle('night-mode');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var switchMenu = document.getElementById('switchMenu');
+
+    switchMenu.addEventListener('change', function() {
+        if (!this.checked) {
+            window.location.href = 'bebidas.html';
+        }else{
+            window.location.href = 'menu.html';
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var switchBebidas = document.getElementById('switchBebidas');
+    switchBebidas.checked = true;
+
+    switchBebidas.addEventListener('change', function() {
+        if (this.checked) {
+            window.location.href = 'menu.html';
+        }else{
+            windows.location.href = 'bebidas.html';
+        }
+    });
+});
+
+$(document).ready(function() {
+    $(".contact-info a").each(function() {
+        var text = $(this).text();
+        var words = text.split(" ");
+        var firstWord = words.shift();
+        var lastWord = words.pop();
+        var newText = "<span class='first-word'>" + firstWord + "</span> " + words.join(" ") + " <span class='last-word'>" + lastWord + "</span>";
+        $(this).html(newText);
+    });
+});
