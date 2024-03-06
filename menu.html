@@ -6,6 +6,7 @@
         <title>La Última Bar</title>
         <script src="script.js"></script>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="footer.css">
     </head>
     <body>
         <header>
@@ -19,19 +20,28 @@
             </nav>
         </header>
         <main>
+            <div class="titulo-menu">
         <center><div class="redes1">
-                    <h2>🍽️Disfruta de nuestras delicias:</h2>
+                    <h2>🍽️Disfruta de nuestr@s:</h2>
                 </div></center>
+            </div>
+            <div class="contenedor-central">
+                <input type="checkbox" id="switchMenu" class="switch-input">
+                <label for="switchMenu" class="switch-label"></label>
+                <label class="etiqueta-comida" for="switchMenu">Alimentos</label>
+                <label class="etiqueta-bebida" for="switchMenu">Bebidas</label>
+            </div>
+            <script src="script_menu.js"></script>
                 <div class="contenedor-menu">
         <center><div class="container">
                     <div class="column">
-                        <span class="bold" style="margin-left: 5px;">Imagen</span>
+                        <span class="bold" style="margin-left: 0px;">Imagen</span>
                     </div>
                     <div class="column">
-                        <span class="bold" style="margin-left: 53px;">Nombre</span>
+                        <span class="bold" style="margin-left: 48px;">Nombre</span>
                     </div>
                     <div class="column">
-                        <span class="bold" style="margin-left: 88px;">Precio</span>
+                        <span class="bold" style="margin-left: 80px;">Precio</span>
                     </div>
                 </div></center> 
                 <!--Hamburguesa-->
@@ -55,13 +65,13 @@
             <div class="contenedor-menu">
                 <center><div class="container">
                     <div class="column">
-                        <span class="bold" style="margin-left: 5px;">Imagen</span>
+                        <span class="bold" style="margin-left: 0px;">Imagen</span>
                     </div>
                     <div class="column">
-                        <span class="bold" style="margin-left: 65px;">Nombre</span>
+                        <span class="bold" style="margin-left: 57px;">Nombre</span>
                     </div>
                     <div class="column">
-                        <span class="bold" style="margin-left: 90px;">Precio</span>
+                        <span class="bold" style="margin-left: 77px;">Precio</span>
                     </div>
                 </div></center>
         <!--Bonless-->
@@ -86,13 +96,13 @@
         <div class="contenedor-menu">
             <center><div class="container">
                 <div class="column">
-                    <span class="bold" style="margin-left: 5px;">Imagen</span>
+                    <span class="bold" style="margin-left: 0px;">Imagen</span>
                 </div>
                 <div class="column">
-                    <span class="bold" style="margin-left: 60px;">Nombre</span>
+                    <span class="bold" style="margin-left: 55px;">Nombre</span>
                 </div>
                 <div class="column">
-                    <span class="bold" style="margin-left: 90px;">Precio</span>
+                    <span class="bold" style="margin-left: 80px;">Precio</span>
                 </div>
             </div></center>
     <!--Bonless-->
@@ -113,7 +123,66 @@
             </div></center>
     <center><button class="rsvp-button" href="tel:+52 639 150 2990">RSVP</button></center>
         </div>
-    <center><div class="redes1"><p lang="en"></p></div></center>
+    <!--ALITAS-->
+    <div class="contenedor-menu">
+        <center><div class="container">
+            <div class="column">
+                <span class="bold" style="margin-left: 5px;">Imagen</span>
+            </div>
+            <div class="column">
+                <span class="bold" style="margin-left: 60px;">Nombre</span>
+            </div>
+            <div class="column">
+                <span class="bold" style="margin-left: 90px;">Precio</span>
+            </div>
+        </div></center>
+<!--Bonless-->
+<center><div class="menu-item">
+        <div class="item-photo"><img src="https://tofuu.getjusto.com/orioneat-prod-resized/YHHHkDnXc3RmWdJ7Q-1200-1200.webp" alt="Nombre del Plato"></div>
+        <div class="item-name">Papas Gajo</div>
+        <div class="item-price">120$</div>
+        </div></center>  
+<center><div class="descripcion-hamburguesa">
+            <p>
+                Saborea la irresistible textura crujiente por fuera y suave por dentro de nuestras papas gajo recién fritas en aceite. Cortadas en forma de gajos generosos y sazonadas con una mezcla de especias selectas que realzan su sabor único. Cada bocado es una explosión de delicioso sabor y una experiencia gastronómica incomparable. Perfectas como acompañamiento para tus platos favoritos o simplemente como un tentador aperitivo.
+             </p>
+        </div></center>    
+<center><div class="disclaimer">
+            <p>
+            **Imagen de muestra, no representa el resultado final.
+            </p>
+        </div></center>
+<center><button class="rsvp-button" href="tel:+52 639 150 2990">RSVP</button></center>
+    </div>
+<center><div class="redes1"><p lang="en"></p></div></center>
         </main>
+        <!-- footer section start -->
+      <section id="copy-right">
+        <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i> 
+            <div class="left">
+            <a href="mailto: laultimadelicias@gmail.com">
+                CORREO: laultimadelicias@gmail.com</a>
+            </div>
+            <div class="right">
+            <a href="tel:52639150 2990">
+                TELEFONO: 639 150 2990</a>
+            </div>
+            <div class="left">
+            <a href="https://www.facebook.com/barlaultimadelicias23" target="_blank">REDES SOCIALES: FACEBOOK</a>
+            </div>
+            <div class="right">
+            <a href="https://instagram.com" target="_blank"> GALERIA DE FOTOS: INSTAGRAM</a>
+            </div>
+        </div>
+        </div>
+      </section>
+      <section id="fotos-1">
+        <div class="fotos-1-1">
+            <a href="mailto: laultimadelicias@gmail.com"><img src="email1.png" alt="Descripción de la imagen 1" class="img1" href="mailto: laultimadelicias@gmail.com"></a>
+            <img src="phone.png" alt="Descripción de la imagen 2" class="img2">
+            <img src="icons8-facebook-100.png" alt="Descripción de la imagen 3" class="img3">
+            <img src="icons8-instagram-100.png" alt="Descripción de la imagen 4" class="img4">
+        </div>
+      </section>
     </body>
 </html>
